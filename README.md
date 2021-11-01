@@ -4,7 +4,7 @@
 
 # @tldraw/vec
 
-This package contains 2D vector utility function used by [tldraw](https://tldraw.com).
+This package contains 2D vector utility functions used by [tldraw](https://tldraw.com).
 
 💕 Love this library? Consider [becoming a sponsor](https://github.com/sponsors/steveruizok?frequency=recurring&sponsor=steveruizok).
 
