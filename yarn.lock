@@ -616,6 +616,13 @@
     "@parcel/utils" "^2.0.0"
     posthtml "^0.16.4"
 
+"@parcel/packager-ts@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@parcel/packager-ts/-/packager-ts-2.0.0.tgz#5facd92326f403f48b3b5413e3e285730bad990b"
+  integrity sha512-RY+rv4sKzqtR4v7qUQfVqNZCb7DdIRGtiQYD4rr0rmHJ7aLvdhKSAZl+darvdyemaaBaoWhiU2KOo2K7fwzdig==
+  dependencies:
+    "@parcel/plugin" "^2.0.0"
+
 "@parcel/plugin@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@parcel/plugin/-/plugin-2.0.0.tgz#ad1c820a89fe3f356933dcbfb0579865275b41df"
@@ -842,6 +849,23 @@
     posthtml-parser "^0.10.1"
     posthtml-render "^3.0.0"
     semver "^5.4.1"
+
+"@parcel/transformer-typescript-types@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@parcel/transformer-typescript-types/-/transformer-typescript-types-2.0.0.tgz#bafbfc7b94c74ae79c7404a63fd72a4049b3cc8a"
+  integrity sha512-ZTGgmHpWhekCFPvjKlRw4RwNpW8W/jRdfV0ZG5PqkUPdKf7Ho0HZ2XPJBWtEovo6AJhInT6Bq+E86tXeZSC9zg==
+  dependencies:
+    "@parcel/plugin" "^2.0.0"
+    "@parcel/source-map" "^2.0.0"
+    "@parcel/ts-utils" "^2.0.0"
+    nullthrows "^1.1.1"
+
+"@parcel/ts-utils@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@parcel/ts-utils/-/ts-utils-2.0.0.tgz#89954d341a8942cb6ddcda217f5f7b38914bef12"
+  integrity sha512-+jMwsBu5+gyp8iw+h6CN1MR8hYDALdO1ccphHPD2WMzQHpvvp+hhZ/gUfN70ioPz9DOG/d6BMlfm/HVaZLePsA==
+  dependencies:
+    nullthrows "^1.1.1"
 
 "@parcel/types@^2.0.0":
   version "2.0.0"
@@ -4282,6 +4306,11 @@ type-fest@^0.21.3:
   version "0.21.3"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.21.3.tgz#d260a24b0198436e133fa26a524a6d65fa3b2e37"
   integrity sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==
+
+typescript@>=3.0.0:
+  version "4.4.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.4.tgz#2cd01a1a1f160704d3101fd5a58ff0f9fcb8030c"
+  integrity sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
