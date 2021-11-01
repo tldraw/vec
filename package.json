@@ -1,0 +1,34 @@
+{
+  "name": "@tldraw/vec",
+  "version": "0.1.0",
+  "description": "The 2D vector utilities used in TLDraw.",
+  "author": "@steveruizok",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tldraw/core.git"
+  },
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "2d",
+    "vector",
+    "typescript",
+    "javascript"
+  ],
+  "source": "src/index.ts",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "start": "parcel watch",
+    "build": "parcel build",
+    "check": "tsc --noEmit",
+    "lint": "eslint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "latest",
+    "tslib": "^2.3.1"
+  },
+  "peerDependencies": {}
+}
