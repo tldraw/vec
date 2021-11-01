@@ -1,14 +1,17 @@
 {
   "name": "@tldraw/vec",
-  "version": "0.1.1",
-  "description": "The 2D vector utilities used in TLDraw.",
+  "version": "0.1.2",
+  "description": "2D vector utilities for TLDraw and maybe you, too.",
   "author": "@steveruizok",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tldraw/core.git"
+    "url": "git+https://github.com/tldraw/vec.git"
   },
   "license": "MIT",
   "private": false,
+  "files": [
+    "dist/**/*"
+  ],
   "keywords": [
     "2d",
     "vector",
